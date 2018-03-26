@@ -3,7 +3,7 @@ OBJS = $(SOURCES:.c=.o)
 TARGET = lcd
 RM = rm -f 
 
-CFLAGS= -Wall -lm -luci -ltlt_uci
+CFLAGS= -Wall -lm
 
 all:
 	$(CC) $(SOURCES) $(CFLAGS) -o $(TARGET)
